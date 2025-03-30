@@ -11,7 +11,7 @@ const MailboxDetails = ({ mailboxes, letters }) => {
   );
 
   return (
-    <div className="mail-box">
+    <div>
       {selectedBox ? (
         <>
           <h1>Mailbox {selectedBox._id}</h1>

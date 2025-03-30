@@ -14,7 +14,7 @@ const MailboxList = ({ mailboxes }) => {
               to={`/mailboxes/${mailbox._id}`} 
               key={mailbox._id}
             >
-              <div>Mailbox {mailbox._id}</div>
+              <div className="mail-box">Mailbox {mailbox._id}</div>
             </Link>
           ))}
         </div>
